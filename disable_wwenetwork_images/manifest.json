@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Disable WWE Network Images",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://network.wwe.com/*"
+            ],
+            "js": [
+                "disable_wwenetwork_images.js"
+            ]
+        }
+    ]
+}
